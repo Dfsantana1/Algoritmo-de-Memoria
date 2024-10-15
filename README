@@ -1,0 +1,30 @@
+# Algoritmo de Memoria
+
+Este proyecto implementa tres algoritmos de reemplazo de páginas de memoria: LRU (Least Recently Used), FIFO (First In, First Out) y Óptimo.
+
+## Algoritmos
+
+### LRU (Least Recently Used)
+El algoritmo LRU reemplaza la página que no ha sido utilizada por el mayor período de tiempo. Es una aproximación que intenta predecir qué página no será utilizada en el futuro cercano basándose en el pasado reciente.
+
+### FIFO (First In, First Out)
+El algoritmo FIFO reemplaza la página que ha estado en la memoria por el mayor tiempo. Este algoritmo es simple de implementar pero no siempre ofrece el mejor rendimiento.
+
+### Óptimo
+El algoritmo Óptimo reemplaza la página que no será utilizada por el mayor período de tiempo en el futuro. Este algoritmo ofrece el mejor rendimiento teórico, pero no es práctico en la mayoría de los casos porque requiere conocimiento del futuro.
+
+## Uso
+Para ejecutar los algoritmos, simplemente ejecute el archivo principal del proyecto. Asegúrese de tener todas las dependencias instaladas.
+
+## Instalación de Dependencias
+
+Para instalar las librerías necesarias, ejecute los siguientes comandos:
+
+```bash
+pip install tabulate
+pip install numpy
+```
+
+## Autores
+Miguel Angel Montealegre
+Diego Fernando Santana
